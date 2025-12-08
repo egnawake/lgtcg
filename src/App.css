@@ -1,42 +1,54 @@
+@font-face {
+  font-family: "Bowlby One SC";
+  src: local("Bowlby One SC"), url("BowlbyOneSC-Regular.ttf");
+}
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.header,
+.footer {
+  flex-grow: 0;
+}
+
+.banner {
+  height: 100px;
+  background: no-repeat center/cover url("banner.jpeg");
+}
+
+.title {
+  font-size: 24px;
+  font-family: "Bowlby One SC";
   text-align: center;
+  margin: 40px 0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.card-drawer {
+  display: flex;
+  column-gap: 32px;
+  row-gap: 60px;
+  max-width: 100vw;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card {
-  padding: 2em;
+  min-width: 0;
+  max-width: 300px;
+  flex: 1 0 auto;
 }
 
-.read-the-docs {
-  color: #888;
+.footer {
+  padding: 24px 0;
+  margin-block-start: 32px;
+  text-align: center;
+  background: black;
+  color: gray;
 }

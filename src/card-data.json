@@ -1,0 +1,96 @@
+{
+  "chances": [
+    {
+      "id": "common",
+      "weight": 10
+    },
+    {
+      "id": "rare",
+      "weight": 3
+    },
+    {
+      "id": "legendary",
+      "weight": 1
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "name": "Andrade³",
+      "rarity": "legendary",
+      "image": "01_Andrade3.png"
+    },
+    {
+      "id": 2,
+      "name": "Dragão Volante",
+      "rarity": "common",
+      "image": "02_DragaoVolante.png"
+    },
+    {
+      "id": 3,
+      "name": "Moira",
+      "rarity": "rare",
+      "image": "03_Moira.png"
+    },
+    {
+      "id": 4,
+      "name": "Hilda",
+      "rarity": "common",
+      "image": "04_Hilda.png"
+    },
+    {
+      "id": 5,
+      "name": "Santa Wilson",
+      "rarity": "common",
+      "image": "05_SantaWilson.png"
+    },
+    {
+      "id": 6,
+      "name": "Little Guy",
+      "rarity": "rare",
+      "image": "06_LittleGuy.png"
+    },
+    {
+      "id": 7,
+      "name": "Manuelo Panuelo",
+      "rarity": "common",
+      "image": "07_ManueloPanuelo.png"
+    },
+    {
+      "id": 8,
+      "name": "Cantina's Francesinha",
+      "rarity": "common",
+      "image": "08_CantinaFrancesinha.png"
+    },
+    {
+      "id": 9,
+      "name": "Man-Galho",
+      "rarity": "legendary",
+      "image": "09_ManGalho.png"
+    },
+    {
+      "id": 10,
+      "name": "Celinda",
+      "rarity": "rare",
+      "image": "10_Celinda.png"
+    },
+    {
+      "id": 13,
+      "name": "WilSun",
+      "rarity": "rare",
+      "image": "13_WilSun.png"
+    },
+    {
+      "id": 14,
+      "name": "Cat Ivan",
+      "rarity": "rare",
+      "image": "14_CatIvan.png"
+    },
+    {
+      "id": 19,
+      "name": "Master Sorcerer",
+      "rarity": "common",
+      "image": "19_MasterSorcerer.png"
+    }
+  ]
+}
