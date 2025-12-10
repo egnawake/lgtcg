@@ -1,4 +1,5 @@
 import cardData from "./card-data.json";
+import Card from "./Card";
 
 function rollRarity(chances) {
   const weightTotal = chances
@@ -57,7 +58,7 @@ function CardDrawer() {
   return (
     <div className="card-drawer">
       {cards.map((card, i) => (
-        <img key={i} src={`${import.meta.env.BASE_URL}/${card.image}`} className="card" />
+        <Card key={i} card={card} />
       ))}
     </div>
   );
