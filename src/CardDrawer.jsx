@@ -23,10 +23,30 @@ function chooseCard(chances, cards) {
 
 function drawCards(data) {
   const cards = [];
+
+  const lastDrawJson = localStorage.getItem("lastDraw");
+
+  if (lastDrawJson !== null) {
+    const lastDraw = JSON.parse(lastDrawJson);
+    const lastDrawDate = new Date(lastDraw.timestamp);
+    const elapsed = Date.now() - lastDrawDate.getTime();
+    if (elapsed / 1000 / 60 / 60 < 24) {
+      return lastDraw.cards.map((id) =>
+        data.cards.find((card) => card.id === id),
+      );
+    }
+  }
+
   for (let i = 0; i < 3; i++) {
     const card = chooseCard(data.chances, data.cards);
     cards.push(card);
   }
+
+  const drawResult = {
+    timestamp: Date.now(),
+    cards: cards.map((card) => card.id),
+  };
+  localStorage.setItem("lastDraw", JSON.stringify(drawResult));
 
   return cards;
 }
