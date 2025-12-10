@@ -69,7 +69,72 @@ cards:
     rarity: rare
     image: 14_CatIvan.png
 
+  - id: 16
+    name: Menacing Diogo
+    rarity: rare
+    image: 16_MenacingDiogo.png
+
+  - id: 17
+    name: Simple&Clean
+    rarity: rare
+    image: 17_Simple&Clean.png
+
+  - id: 18
+    name: Evil Luz
+    rarity: legendary
+    image: 18_EvilLuz.png
+
   - id: 19
     name: Master Sorcerer
     rarity: common
     image: 19_MasterSorcerer.png
+
+  - id: 21
+    name: Simple&Clean
+    rarity: rare
+    image: 21_W.I.L.S.O.N.png
+
+  - id: 22
+    name: DJ Outerdim
+    rarity: common
+    image: 22_DJOuterdim.png
+
+  - id: 23
+    name: Scrap Boy
+    rarity: common
+    image: 23_ScrapBoy.png
+
+  - id: 25
+    name: Alien
+    rarity: common
+    image: 25_Alien.png
+
+  - id: 26
+    name: BALOOBIE
+    rarity: common
+    image: 26_BALOOBIE.png
+
+  - id: 27
+    name: Clown
+    rarity: common
+    image: 27_Clown.png
+
+  - id: 28
+    name: Monkey
+    rarity: legendary
+    image: 28_Monkey.png
+
+  - id: 31
+    name: Bufo Andrade
+    rarity: common
+    image: 31_BufoAndrade.png
+
+  - id: 32
+    name: Memeaela
+    rarity: legendary
+    image: 32_Memeaela.png
+
+  - id: 33
+    name: Tuguinha
+    rarity: rare
+    image: 33_Tuguinha.png
