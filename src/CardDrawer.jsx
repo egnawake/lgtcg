@@ -1,4 +1,5 @@
-import cardData from "./card-data.json";
+import * as yaml from "yaml";
+import cardDataYaml from "./card-data.yaml?raw";
 import Card from "./Card";
 
 function rollRarity(chances) {
@@ -53,6 +54,7 @@ function drawCards(data) {
 }
 
 function CardDrawer() {
+  const cardData = yaml.parse(cardDataYaml);
   const cards = drawCards(cardData);
 
   return (
