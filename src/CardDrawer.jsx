@@ -57,7 +57,7 @@ function CardDrawer() {
   return (
     <div className="card-drawer">
       {cards.map((card, i) => (
-        <img key={i} src={`/${card.image}`} className="card" />
+        <img key={i} src={`${import.meta.env.BASE_URL}/${card.image}`} className="card" />
       ))}
     </div>
   );
