@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Bowlby One SC";
-  src: local("Bowlby One SC"), url("BowlbyOneSC-Regular.ttf");
+  src: local("Bowlby One SC"), url("/BowlbyOneSC-Regular.ttf");
 }
 
 #root {
@@ -20,7 +20,7 @@
 
 .banner {
   height: 100px;
-  background: no-repeat center/cover url("banner.jpeg");
+  background: no-repeat center/cover url("/banner.jpeg");
 }
 
 .title {
