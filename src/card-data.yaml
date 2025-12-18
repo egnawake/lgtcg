@@ -59,6 +59,16 @@ cards:
     rarity: rare
     image: 10_Celinda.png
 
+  - id: 11
+    name: 2.11 Dragons
+    rarity: common
+    image: 11_2.11Dragons.png
+
+  - id: 12
+    name: OuterdimArcade
+    rarity: common
+    image: 12_OuterdimArcade.png
+
   - id: 13
     name: WilSun
     rarity: rare
@@ -68,6 +78,11 @@ cards:
     name: Cat Ivan
     rarity: rare
     image: 14_CatIvan.png
+
+  - id: 15
+    name: Bordalo's Cat
+    rarity: rare
+    image: 15_BordalosCat.png
 
   - id: 16
     name: Menacing Diogo
@@ -89,6 +104,11 @@ cards:
     rarity: common
     image: 19_MasterSorcerer.png
 
+  - id: 20
+    name: Well Son
+    rarity: common
+    image: 20_WellSon.png
+
   - id: 21
     name: Simple&Clean
     rarity: rare
@@ -103,6 +123,11 @@ cards:
     name: Scrap Boy
     rarity: common
     image: 23_ScrapBoy.png
+
+  - id: 24
+    name: Owl Wizard
+    rarity: rare
+    image: 24_OwlWizard.png
 
   - id: 25
     name: Alien
@@ -138,3 +163,8 @@ cards:
     name: Tuguinha
     rarity: rare
     image: 33_Tuguinha.png
+
+  - id: 35
+    name: Nurse
+    rarity: common
+    image: 35_Nurse.png
